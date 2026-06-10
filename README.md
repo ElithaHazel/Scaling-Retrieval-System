@@ -45,7 +45,10 @@ A unified benchmarking harness (`bench.py`) orchestrates all experiments using *
   - TinyLlama-1.1B (with RAG)  
   - Llama-3.1-8B (without RAG)
 
-**Metrics Collected**
+### Metrics Collected
+
+These metrics provide insight into system performance, scalability, and efficiency across different retrieval backends.
+
 - Retrieval latency (p50, p95)
 - Throughput (queries/sec)
 - Index build time
